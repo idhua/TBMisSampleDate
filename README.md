@@ -1,4 +1,4 @@
-# TBMisSampleDateUSE [TbMis_two]
+USE [TbMis_two]
 GO
 /****** Object:  Table [dbo].[Bookseller]    Script Date: 2018/8/19 21:44:02 ******/
 SET ANSI_NULLS ON
@@ -247,4 +247,3 @@ EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'格式化后�
 GO
 EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'教材的信息' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Textbook'
 GO
-
